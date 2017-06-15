@@ -1,6 +1,7 @@
 #!/bin/bash
 function appendAlias(){
         bashrc=~/.bashrc
+        echo "" >> $bashrc
         echo "alias l='ls -CF'" >> $bashrc
         echo "alias la='ls -A'" >> $bashrc
         echo "alias ll='ls -alF'" >> $bashrc
