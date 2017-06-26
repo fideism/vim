@@ -8,6 +8,7 @@ function appendAlias(){
         echo "alias ls='ls --color=auto'" >> $bashrc
         echo "alias rm='rm -i'" >> $bashrc
         echo "alias cd='cdls(){ cd \$1; ls; };cdls'" >> $bashrc
+        echo "export TERM=xterm" >> $bashrc
         source $bashrc
 }
 appendAlias
