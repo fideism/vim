@@ -96,6 +96,10 @@ set incsearch
 set ignorecase
 " php 代码折叠
 " let php_folding = 1
+" 鼠标可以更改nerdtree宽度
+set mouse=a
+" 固定宽度
+" let NERDTreeWinSize=22
 
 
 """""""""""""""""""""""""""""""""""""""""""
