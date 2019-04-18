@@ -1,6 +1,6 @@
 #!/bin/bash
 function appendAlias(){
-        bashrc=/home/hyc/vim/tets
+        bashrc=~/.bashrc
         echo "" >> $bashrc
         echo "#alias"
         echo "alias l='ls -CF'" >> $bashrc
@@ -12,6 +12,7 @@ function appendAlias(){
         echo "alias gam='gam(){ git add .;git commit -m \$1; };gam'">>$bashrc
         echo "alias gst='git status'">>$bashrc
         echo "alias gdiff='git diff .'">>$bashrc
+        echo "alias composerupdate='composer update --profile'">>$bashrc
         echo "export TERM=xterm" >> $bashrc
         echo "">>$bashrc
         echo "#show git branch">>$bashrc
